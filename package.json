@@ -1,0 +1,57 @@
+{
+  "name": "gatsby-theme-serial-programmer",
+  "private": true,
+  "description": "A gatesby theme for serial prorammers (-.-)",
+  "version": "0.1.0",
+  "author": "Sharad Raj Singh Maurya <dev_sharad@outlook.com>",
+  "bugs": {
+    "url": "https://github.com/sharadcodes/gatsby-theme-serial-programmer"
+  },
+  "dependencies": {
+    "gatsby": "^4.1.0",
+    "gatsby-plugin-feed": "^4.1.0",
+    "gatsby-plugin-gatsby-cloud": "^4.1.0",
+    "gatsby-plugin-google-analytics": "^4.1.0",
+    "gatsby-plugin-image": "^2.1.0",
+    "gatsby-plugin-manifest": "^4.1.0",
+    "gatsby-plugin-offline": "^5.1.0",
+    "gatsby-plugin-react-helmet": "^5.1.0",
+    "gatsby-plugin-sharp": "^4.1.0",
+    "gatsby-plugin-tags": "^2.3.7",
+    "gatsby-prismjs-dracula": "^0.1.15",
+    "gatsby-remark-copy-linked-files": "^5.1.0",
+    "gatsby-remark-images": "^6.1.0",
+    "gatsby-remark-prismjs": "^6.1.0",
+    "gatsby-remark-responsive-iframe": "^5.1.0",
+    "gatsby-remark-smartypants": "^5.1.0",
+    "gatsby-source-filesystem": "^4.1.0",
+    "gatsby-transformer-remark": "^5.1.0",
+    "gatsby-transformer-sharp": "^4.1.0",
+    "prismjs": "^1.25.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  },
+  "homepage": "https://github.com/sharadcodes/gatsby-theme-serial-programmer#readme",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharadcodes/gatsby-theme-serial-programmer.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  }
+}

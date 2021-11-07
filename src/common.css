@@ -1,0 +1,13 @@
+#md-content a {
+  color: cyan!important;
+  border-bottom: 1px solid cyan!important;
+}
+.token.operator {
+  background: transparent!important;
+}
+.gatsby-highlight {
+  margin: 3rem 0rem!important;
+}
+.gatsby-highlight{
+  padding: 0.5rem!important;
+}
