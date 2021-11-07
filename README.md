@@ -16,12 +16,16 @@
 
 ## BLOG PAGE
 
-![Blog page](https://raw.githubusercontent.com/sharadcodes/gastby-theme-serial-programmer/main/screenshots/blog.png)
+![Blog page](https://raw.githubusercontent.com/sharadcodes/gatsby-theme-serial-programmer/main/screenshots/blog.png)
 
 ## POST EXAMPLE
 
-![Post page](https://raw.githubusercontent.com/sharadcodes/hugo-theme-serial-programmer/main/screenshots/post.png)
+![Post page](https://raw.githubusercontent.com/sharadcodes/gatsby-theme-serial-programmer/main/screenshots/post.png)
 
 ## TAG PAGE
 
+<<<<<<< HEAD
 ![Post page](https://raw.githubusercontent.com/sharadcodes/gatsby-theme-serial-programmer/main/screenshots/tag.png)
+=======
+![Tag page](https://raw.githubusercontent.com/sharadcodes/gatsby-theme-serial-programmer/main/screenshots/tag.png)
+>>>>>>> 3ff026a1c277089ff49ec4e253767f347dd537f6
