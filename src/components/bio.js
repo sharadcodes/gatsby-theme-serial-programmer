@@ -26,21 +26,31 @@ const Bio = () => {
 
   return (
     <section className={blogStyles.bio}>
-    <section className={blogStyles.imgWrapper}>
-      <img src={author.dp} alt="DP"/>
+      <section className={blogStyles.imgWrapper}>
+        <img src={author.dp} alt="DP" />
+      </section>
+      <section className={blogStyles.bioWrapper}>
+        <div
+          className={blogStyles.textWrapper}
+          dangerouslySetInnerHTML={{ __html: author.bio }}
+        />
+        <div className={blogStyles.socialWrapper}>
+          {author.social.map((social_id, i) => (
+            <a
+              href={social_id.username}
+              target="_blank"
+              rel="noreferrer"
+              key={i}
+            >
+              <img
+                src={`https://sharadcodes.github.io/hugo-theme-serial-programmer/assets/icons/${social_id.title}.png`}
+                alt=""
+              />
+            </a>
+          ))}
+        </div>
+      </section>
     </section>
-    <section className={blogStyles.bioWrapper}>
-      <div className={blogStyles.textWrapper} dangerouslySetInnerHTML={{__html: author.bio}}/>
-      <div className={blogStyles.socialWrapper}>
-        {author.social.map((social_id, i) => (
-          <a href={social_id.username} target="_blank" rel="noreferrer" key={i}>
-            <img src={`https://sharadcodes.github.io/hugo-theme-serial-programmer/assets/icons/${social_id.title}.png`} alt="" />
-          </a>
-          )
-        )}
-      </div>
-    </section>
-  </section>
   )
 }
 

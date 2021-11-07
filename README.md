@@ -8,7 +8,7 @@
   Gatsby Theme Serial Programmer
 </h1>
 
->A Gatsby theme for serial programmers (-.-)
+> A Gatsby theme for serial programmers (-.-)
 
 ## 🚀 Quick start
 
