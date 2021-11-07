@@ -24,12 +24,4 @@
 
 ## TAG PAGE
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-![Post page](https://raw.githubusercontent.com/sharadcodes/gatsby-theme-serial-programmer/main/screenshots/tag.png)
-=======
 ![Tag page](https://raw.githubusercontent.com/sharadcodes/gatsby-theme-serial-programmer/main/screenshots/tag.png)
->>>>>>> 3ff026a1c277089ff49ec4e253767f347dd537f6
-=======
-![Tag page](https://raw.githubusercontent.com/sharadcodes/gatsby-theme-serial-programmer/main/screenshots/tag.png)
->>>>>>> 3ff026a1c277089ff49ec4e253767f347dd537f6
