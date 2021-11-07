@@ -14,8 +14,6 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 #### Image
 
-Images can be clicked to enlarge :) .
-
 ![Dummy Image](https://picsum.photos/800/300)
 
 # Header 1
