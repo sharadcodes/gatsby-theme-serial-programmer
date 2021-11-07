@@ -12,11 +12,23 @@ module.exports = {
             `,
       dp: "https://avatars2.githubusercontent.com/u/36638057?s=460&u=0cbe4fd6b5a3655d91b3eb86db834d0829a0c086&v=4",
       social: [
-        { title: "github", username: `sharadcodes` },
-        { title: "linkedin", username: `srsmaurya` },
-        { title: "twitter", username: `sharadcodes` },
-        { title: "dev", username: `sharadcodes` },
-        { title: "email", username: `me@example.com` },
+        {
+          title: "github",
+          username: `sharadcodes`,
+          url: `https://github.com/`,
+        },
+        {
+          title: "linkedin",
+          username: `srsmaurya`,
+          url: `https://linkedin.com/in/`,
+        },
+        {
+          title: "twitter",
+          username: `sharadcodes`,
+          url: `https://twitter.com/`,
+        },
+        { title: "dev", username: `sharadcodes`, url: `https://dev.to/` },
+        { title: "email", username: `me@example.com`, url: `mailto:` },
       ],
     },
     description: `A gatsby theme for serial programmers.`,

@@ -14,6 +14,7 @@ const Bio = () => {
             social {
               title
               username
+              url
             }
           }
         }
@@ -37,14 +38,14 @@ const Bio = () => {
         <div className={blogStyles.socialWrapper}>
           {author.social.map((social_id, i) => (
             <a
-              href={social_id.username}
+              href={social_id.url + social_id.username}
               target="_blank"
               rel="noreferrer"
               key={i}
             >
               <img
-                src={`https://sharadcodes.github.io/hugo-theme-serial-programmer/assets/icons/${social_id.title}.png`}
-                alt=""
+                src={`/icons/${social_id.title}.png`}
+                alt={social_id.title}
               />
             </a>
           ))}
