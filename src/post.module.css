@@ -156,6 +156,12 @@ main {
   max-width: 100%;
   margin: 1rem 0;
 }
+.content pre,
+.content pre *,
+.content code ,
+.content code *{
+	line-height: 150%!important;
+}
 
 @media screen and (max-width: 750px) {
   body {
