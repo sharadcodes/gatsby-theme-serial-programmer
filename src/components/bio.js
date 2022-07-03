@@ -12,7 +12,11 @@ const Bio = () => {
             dp
             bio
             social {
-              ...
+              twitter
+              github
+              dev
+              email
+              linkedin
             }
           }
         }
