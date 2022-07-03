@@ -9,7 +9,7 @@ const NotFoundPage = ({ data, location }) => {
 
   return (
     <PostLayout headerTitle={siteTitle} title="404: Not Found">
-      <Seo title="404: Not Found" />
+      <Seo title={`404: Not Found | ${siteTitle}`} />
       <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
     </PostLayout>
   )

@@ -2,10 +2,19 @@ import * as React from "react"
 import { Link } from "gatsby"
 import * as postStyles from "../post.module.css"
 import "gatsby-prismjs-dracula"
+import Seo from "../components/seo"
 
-const PostLayout = ({ headerTitle, title, date, tags, children }) => {
+const PostLayout = ({
+  headerTitle,
+  title,
+  description,
+  date,
+  tags,
+  children,
+}) => {
   return (
     <main>
+      <Seo title={title} description={description} />
       <header>
         <Link className={postStyles.siteTitle} to="/">
           {headerTitle}

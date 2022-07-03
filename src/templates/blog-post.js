@@ -12,6 +12,7 @@ const BlogPostTemplate = ({ data, location }) => {
       location={location}
       headerTitle={siteTitle}
       title={post.frontmatter.title}
+      description={post.frontmatter.description || post.excerpt}
       date={post.frontmatter.date}
       tags={post.frontmatter.tags}
     >
