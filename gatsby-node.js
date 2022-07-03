@@ -90,11 +90,22 @@ exports.createSchemaCustomization = ({ actions }) => {
 
     type Author {
       name: String
-      summary: String
+      bio: String
+      dp: String
     }
 
     type Social {
-      twitter: String
+      github: SocialId,
+      linkedin: SocialId,
+      twitter: SocialId,
+      dev: SocialId,
+      email: SocialId,
+    }
+
+    type SocialId{
+      title: String,
+      username: String,
+      url: String
     }
 
     type MarkdownRemark implements Node {
