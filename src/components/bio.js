@@ -11,7 +11,7 @@ const Bio = () => {
             name
             dp
             bio
-            social
+            social { ... }
           }
         }
       }
