@@ -4,12 +4,10 @@ import Bio from "../components/bio"
 import Seo from "../components/seo"
 import * as blogStyles from "../blog.module.css"
 
-const BlogLayout = ({ headerTitle, children, data }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
-
+const BlogLayout = ({ headerTitle, children }) => {
   return (
     <main>
-      <Seo title={`Blog | ${siteTitle}`} />
+      <Seo title={`Blog | ${headerTitle}`} />
       <header>
         <Link className={blogStyles.siteTitle} to="/">
           {headerTitle}
