@@ -11,7 +11,7 @@ const BlogIndex = ({ data }) => {
   if (posts.length === 0) {
     return (
       <BlogLayout title={siteTitle}>
-        <Seo title={`Blog | ${siteTitle}`} />
+        <Seo title="Blog" />
         <p>
           No blog posts found. Add markdown posts to "content/blog" (or the
           directory you specified for the "gatsby-source-filesystem" plugin in

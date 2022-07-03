@@ -7,7 +7,7 @@ import Seo from './seo'
 const TagLayout = ({ headerTitle, title, children }) => {
   return (
     <main>
-      <Seo title={`Tag: ${title} | ${headerTitle}`} />
+      <Seo title={`Tag: ${title}`} />
       <header>
         <Link className={blogStyles.siteTitle} to="/">
           {headerTitle}

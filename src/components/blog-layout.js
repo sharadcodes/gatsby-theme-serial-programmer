@@ -7,7 +7,7 @@ import * as blogStyles from "../blog.module.css"
 const BlogLayout = ({ headerTitle, children }) => {
   return (
     <main>
-      <Seo title={`Blog | ${headerTitle}`} />
+      <Seo title="Blog" />
       <header>
         <Link className={blogStyles.siteTitle} to="/">
           {headerTitle}
