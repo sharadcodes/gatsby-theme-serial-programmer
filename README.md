@@ -11,6 +11,7 @@
 > A Gatsby theme for serial programmers (-.-)
 
 [Live Demo Vercel](https://gatsby-theme-serial-programmer.vercel.app/)
+
 [Live Demo Gatbsy Cloud](https://gatsbythemeserialprogrammer.gatsbyjs.io/)
 
 # Screenshots
