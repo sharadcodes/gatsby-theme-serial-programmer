@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import "../common.css"
 import * as blogStyles from "../blog.module.css"
+import Seo from './seo'
 
 const TagLayout = ({ headerTitle, title, children }) => {
   return (
