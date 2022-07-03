@@ -11,28 +11,28 @@ module.exports = {
             </p>
             `,
       dp: "https://avatars2.githubusercontent.com/u/36638057?s=460&u=0cbe4fd6b5a3655d91b3eb86db834d0829a0c086&v=4",
-      social: [
-        {
+      social: {
+        github: {
           title: "github",
           username: `sharadcodes`,
           url: `https://github.com/`,
         },
-        {
+        linkedin: {
           title: "linkedin",
           username: `srsmaurya`,
           url: `https://linkedin.com/in/`,
         },
-        {
+        twitter: {
           title: "twitter",
-          username: `sharadcodes`,
+          username: `iamsharadraj`,
           url: `https://twitter.com/`,
         },
-        { title: "dev", username: `sharadcodes`, url: `https://dev.to/` },
-        { title: "email", username: `me@example.com`, url: `mailto:` },
-      ],
+        dev: { title: "dev", username: `sharadcodes`, url: `https://dev.to/` },
+        email: { title: "email", username: `me@example.com`, url: `mailto:` },
+      },
     },
-    description: `A gatsby theme for serial programmers.`,
-    siteUrl: `https://sharadcodes.github.io/gatsby-theme-serial-programmer`,
+    description: `A gatsby theme for serial programmers (-.-)`,
+    siteUrl: `https://gatsbythemeserialprogrammer.gatsbyjs.io`,
   },
   plugins: [
     `gatsby-plugin-image`,
