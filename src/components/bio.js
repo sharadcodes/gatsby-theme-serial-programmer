@@ -47,7 +47,7 @@ const Bio = () => {
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
   const social_ids = data.site.siteMetadata?.author?.social
-  const _social_ids = Object.keys(data.site.social)
+  const _social_ids = Object.keys(social_ids)
 
   return (
     <section className={blogStyles.bio}>
